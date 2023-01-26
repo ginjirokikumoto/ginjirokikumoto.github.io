@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: #54b1e5;
+    /* padding: 80px 180px 80px */
+}
+
+div {
+    background-color: #fff;
+    width: 1080px;
+    height: 880px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 32px;
+}
+
+@media screen and (max-width : 767px){
+    div {
+        width: 400px;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
